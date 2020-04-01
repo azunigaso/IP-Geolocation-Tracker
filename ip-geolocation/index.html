@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Geolocation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="scripts.js"></script> -->
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>IP Geolection Tracker</h1>
+        </div>
+        <div id="content">  
+            <p>Click below to see what you're IP address is and where you're located in the world! (Atleast where you want to be located 😉)</p>    
+            <button >Click Here</button>
+        </div>
+        <div id="map">
+            
+        </div>
+        <div id="footer"></div>
+    </div>
+
+    
+<script>
+
+function callBack (response){
+    console.log(response)
+    
+}
+  
+$.ajax({
+    url: "https://geoip-db.com/jsonp/",
+    dataType: "jsonp"
+    
+})
+ 
+</script>
+        
+</body>
+</html>

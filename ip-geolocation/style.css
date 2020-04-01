@@ -1,0 +1,13 @@
+body{
+    background-color: green;
+}
+
+#header{
+    background-color:red;
+}
+#container{
+    text-align: center;
+    font: 14/18px 'ZCOOL QingKe HuangYou', 'HelveticaNeue', 'Helvetica', 'Arial';
+    color: whitesmoke;
+    font-weight: bold;
+}
